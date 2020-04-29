@@ -1,6 +1,9 @@
 #!/bin/bash
 
-kapp deploy -c -y -a kdemo -f app.yaml
+# reduce kapp log verbosity by polling less aggressively
+DEPLOY_FLAGS="--wait-check-interval=5s"
+
+kapp deploy -c -y -a kdemo -f app.yaml $DEPLOY_FLAGS
 
 trap 'kill $(jobs -p)' EXIT
 
