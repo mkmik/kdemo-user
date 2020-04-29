@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: mkmik/kdemo-cbce88c499ad59d7a42a0d7bcf9456f0@sha256:d83bd9db79f5bb9926c5b27c8ddee0ef91c46d68a1909a23310d4f1142d08279
+        image: mkmik/kdemo-cbce88c499ad59d7a42a0d7bcf9456f0@sha256:7948845e3f467e25e9b9a2fcbc0272e33c4c89e0e53bc51c0eb309d0aff6b9b2
         env:
         - name: KDEMO_AUDIENCE
           value: Knot8
