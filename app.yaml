@@ -23,7 +23,7 @@ spec:
         image: mkmik/kdemo-cbce88c499ad59d7a42a0d7bcf9456f0@sha256:d83bd9db79f5bb9926c5b27c8ddee0ef91c46d68a1909a23310d4f1142d08279
         env:
         - name: KDEMO_AUDIENCE
-          value: Knot8
+          value: User
         ports:
         - containerPort: 8080
 ---
